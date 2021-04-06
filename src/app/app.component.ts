@@ -7,4 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'if';
+
+  people: any[] = [
+    {
+      "name": "Douglas  Pace",
+      "age": 35
+    },
+    {
+      "name": "Mcleod  Mueller",
+      "age": 32
+    },
+    {
+      "name": "Day  Meyers",
+      "age": 21
+    },
+    {
+      "name": "Aguirre  Ellis",
+      "age": 34
+    },
+    {
+      "name": "Cook  Tyson",
+      "age": 32
+    }
+  ];
 }
